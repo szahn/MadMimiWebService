@@ -355,3 +355,55 @@ Completed 200 OK in 1762ms (Views: 0.4ms)
 Started GET "/promotions" for 127.0.0.1 at 2013-08-21 17:59:01 -0700
 Processing by ApplicationController#promotions as HTML
 Completed 200 OK in 1770ms (Views: 1.1ms)
+
+
+Started GET "/promotions" for 127.0.0.1 at 2013-08-31 21:06:31 -0700
+Processing by ApplicationController#promotions as HTML
+Completed 200 OK in 513ms (Views: 0.3ms)
+
+
+Started GET "/promotions" for 127.0.0.1 at 2013-08-31 21:07:10 -0700
+Processing by ApplicationController#promotions as HTML
+Completed 200 OK in 3207ms (Views: 0.6ms)
+
+
+Started GET "/promotions" for 127.0.0.1 at 2013-08-31 21:07:27 -0700
+Processing by ApplicationController#promotions as HTML
+Completed 200 OK in 1553ms (Views: 0.6ms)
+
+
+Started GET "/promotions" for 127.0.0.1 at 2013-08-31 21:08:02 -0700
+Processing by ApplicationController#promotions as HTML
+Completed 200 OK in 1394ms (Views: 0.8ms)
+
+
+Started GET "/promotions" for 127.0.0.1 at 2013-08-31 21:09:41 -0700
+Processing by ApplicationController#promotions as HTML
+Completed 200 OK in 1745ms (Views: 2.6ms)
+
+
+Started GET "/promotions" for 127.0.0.1 at 2013-08-31 21:11:06 -0700
+Processing by ApplicationController#promotions as HTML
+Completed 500 Internal Server Error in 1457ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/application_controller.rb:35:in `block in parse_promotions'
+  app/controllers/application_controller.rb:22:in `each'
+  app/controllers/application_controller.rb:22:in `parse_promotions'
+  app/controllers/application_controller.rb:15:in `promotions'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (10.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.3ms)
+
+
+Started GET "/promotions" for 127.0.0.1 at 2013-08-31 21:11:30 -0700
+Processing by ApplicationController#promotions as HTML
+Completed 200 OK in 1733ms (Views: 1.7ms)
+
+
+Started GET "/promotions" for 127.0.0.1 at 2013-08-31 21:12:22 -0700
+Processing by ApplicationController#promotions as HTML
+Completed 200 OK in 1564ms (Views: 0.6ms)

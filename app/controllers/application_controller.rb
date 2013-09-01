@@ -31,9 +31,11 @@ class ApplicationController < ActionController::Base
       title = p['name']
       title = title.sub('(firstname,fallback=Friend), ', '')
       shortCode = p['mimio']
+      id = p['id']
 
       ary.push({:title => title,
-           :url => 'http://mim.io/' + shortCode})
+           :url => 'http://mim.io/' + shortCode,
+           :id => id})
     end
     ary
   end
